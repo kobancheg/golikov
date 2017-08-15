@@ -27,7 +27,7 @@
 <div class="container page-container">
     <header class="page-header page-header-sitebrand-topbar">
         <div class="row row-with-vspace site-branding">
-            <div class="col-md-2 page-header-top-right">
+            <div class="col-auto ml-3 page-header-top-right">
                 <div class="sr-only">
                     <a href="#content"
                        title="<?php esc_attr_e('Skip to content', 'bootstrap-basic4'); ?>"><?php _e('Skip to content', 'bootstrap-basic4'); ?></a>
