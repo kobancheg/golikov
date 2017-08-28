@@ -32,5 +32,5 @@ get_sidebar();
                     ?> 
                 </main>
 <?php
-get_sidebar('right');
+get_sidebar();
 get_footer();

@@ -11,7 +11,7 @@
 get_header();
 get_sidebar();
 ?> 
-                <main id="main" class="col-md-<?php echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main" role="main">
+                <main id="main" class="col-md-12 site-main" role="main">
                     <?php
                     if (have_posts()) {
                         $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
@@ -38,5 +38,5 @@ get_sidebar();
                     ?> 
                 </main>
 <?php
-get_sidebar('right');
+get_sidebar();
 get_footer();
