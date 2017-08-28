@@ -30,5 +30,6 @@
         <!--wordpress footer-->
         <?php wp_footer(); ?> 
         <!--end wordpress footer-->
+
     </body>
 </html>

@@ -22,7 +22,7 @@
 <body <?php body_class(); ?>>
 <!--[if lt IE 9]>
 <p class="ancient-browser-alert"><?php _e('You are using an <strong>outdated</strong> browser. Please <a
-        href="http://browsehappy.com/" target="_blank">upgrade your browser</a>.', 'bootstrap-basic4'); ?></p>
+    href="http://browsehappy.com/" target="_blank">upgrade your browser</a>.', 'bootstrap-basic4'); ?></p>
 <![endif]-->
 <div class="container page-container">
     <header class="page-header page-header-sitebrand-topbar">
