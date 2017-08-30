@@ -45,35 +45,33 @@
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
                        rel="home"><?php bloginfo('name'); ?></a>
                 </h1>
-                <div class="col-md-10">
-                    <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
-                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                                data-target="#bootstrap-basic4-topnavbar" aria-controls="bootstrap-basic4-topnavbar"
-                                aria-expanded="false"
-                                aria-label="<?php esc_attr_e('Toggle navigation', 'bootstrap-basic4'); ?>">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                            data-target="#bootstrap-basic4-topnavbar" aria-controls="bootstrap-basic4-topnavbar"
+                            aria-expanded="false"
+                            aria-label="<?php esc_attr_e('Toggle navigation', 'bootstrap-basic4'); ?>">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <div id="bootstrap-basic4-topnavbar" class="collapse navbar-collapse">
-                            <?php
-                            wp_nav_menu(
-                                array(
-                                    'depth' => '2',
-                                    'theme_location' => 'primary',
-                                    'container' => false,
-                                    'menu_class' => 'navbar-nav mr-auto',
-                                    'walker' => new \BootstrapBasic4\BootstrapBasic4WalkerNavMenu()
-                                )
-                            );
-                            ?>
-                            <div class="float-md-right">
-                                <?php dynamic_sidebar('navbar-right'); ?>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div><!--.navbar-collapse-->
+                    <div id="bootstrap-basic4-topnavbar" class="collapse navbar-collapse">
+                        <?php
+                        wp_nav_menu(
+                            array(
+                                'depth' => '2',
+                                'theme_location' => 'primary',
+                                'container' => false,
+                                'menu_class' => 'navbar-nav mr-auto',
+                                'walker' => new \BootstrapBasic4\BootstrapBasic4WalkerNavMenu()
+                            )
+                        );
+                        ?>
+                        <div class="float-md-right">
+                            <?php dynamic_sidebar('navbar-right'); ?>
+                        </div>
                         <div class="clearfix"></div>
-                    </nav>
-                </div>
+                    </div><!--.navbar-collapse-->
+                    <div class="clearfix"></div>
+                </nav>
                 <!--<div class="site-description">
                     <small>
                         <?php /*bloginfo('description'); */ ?>

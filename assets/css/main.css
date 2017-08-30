@@ -234,3 +234,27 @@ Theme's main style.
 .navbar {
     min-height: 54px;/* With this, we can use navbar without navbar-brand */
 }
+
+/*main*/
+
+.navbar-light {
+    /*background: url('../img/menu_bg.jpg') no-repeat no-repeat;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7751f+0,f7751f+7,000000+8,000000+24,f7751f+25,f7751f+41,000000+42,000000+58,f7751f+59,f7751f+75,000000+76,000000+92,f7751f+93,f7751f+100 */
+   /* background: #f7751f; !* Old browsers *!
+    background: -moz-linear-gradient(top,  #f7751f 0%, #f7751f 7%, #000000 8%, #000000 24%, #f7751f 25%, #f7751f 41%, #000000 42%, #000000 58%, #f7751f 59%, #f7751f 75%, #000000 76%, #000000 92%, #f7751f 93%, #f7751f 100%); !* FF3.6-15 *!
+    background: -webkit-linear-gradient(top,  #f7751f 0%,#f7751f 7%,#000000 8%,#000000 24%,#f7751f 25%,#f7751f 41%,#000000 42%,#000000 58%,#f7751f 59%,#f7751f 75%,#000000 76%,#000000 92%,#f7751f 93%,#f7751f 100%); !* Chrome10-25,Safari5.1-6 *!
+    background: linear-gradient(to bottom,  #f7751f 0%,#f7751f 7%,#000000 8%,#000000 24%,#f7751f 25%,#f7751f 41%,#000000 42%,#000000 58%,#f7751f 59%,#f7751f 75%,#000000 76%,#000000 92%,#f7751f 93%,#f7751f 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7751f', endColorstr='#f7751f',GradientType=0 ); !* IE6-9 *!*/
+}
+
+.site-branding {
+    background: url('../img/menu_bg2.jpg') no-repeat no-repeat;
+}
+
+#menu-top_menu .nav-link {
+    /*color: #fff;*/
+}
+
+.site-title-heading {
+    font-size: 1.65rem;
+}
