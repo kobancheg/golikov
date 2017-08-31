@@ -39,8 +39,8 @@
                     <!--                    <div class="clearfix"></div>-->
                 <?php } // endif; ?>
             </div>
-            <div class="col-md-10 site-title">
-                <h1 class="site-title-heading">
+            <div class="col-md-10 site-title d-flex align-content-between flex-wrap">
+                <h1 class="site-title-heading mx-auto">
                     <a href="<?php echo esc_url(home_url('/')); ?>"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
                        rel="home"><?php bloginfo('name'); ?></a>
@@ -57,7 +57,7 @@
                         <?php
                         wp_nav_menu(
                             array(
-                                'depth' => '2',
+                                'depth' => '0',
                                 'theme_location' => 'primary',
                                 'container' => false,
                                 'menu_class' => 'navbar-nav mr-auto',

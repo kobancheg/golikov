@@ -113,7 +113,7 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4WalkerNavMenu')) {
             $attributes .=!empty($item->xfn) ? ' rel="' . esc_attr($item->xfn) . '"' : '';
             $attributes .=!empty($item->url) ? ' href="' . esc_attr($item->url) . '"' : '';
             if ($depth <= 0) {
-                $attributes .= (is_object($args) && $args->has_children) ? ' class="dropdown-toggle nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"' : ' class="nav-link"';
+                $attributes .= (is_object($args) && $args->has_children) ? ' class="dropdown-toggle nav-link btn btn-link mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"' : ' class="nav-link btn btn-link mr-1"';
             } else {
                 $attributes .= ' class="dropdown-item'.($item->current ? ' active' : '').'"';
             }
