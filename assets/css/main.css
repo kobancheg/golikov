@@ -277,6 +277,7 @@ Theme's main style.
 
 .bg-faded {
     background-color: transparent !important;
+    padding-bottom: 0;
 }
 
 #menu-top_menu .nav-link {
@@ -295,4 +296,9 @@ Theme's main style.
 
 .btn-link, .btn-link:active, .btn-link:focus {
     background-color: #CEBC8E;
+}
+
+.masonry-content {
+    height: 300px;
+    overflow: hidden;
 }

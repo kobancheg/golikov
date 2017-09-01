@@ -40,7 +40,7 @@
                 <?php } // endif; ?>
             </div>
             <div class="col-md-10 site-title d-flex align-content-between flex-wrap">
-                <h1 class="site-title-heading mx-auto">
+                <h1 class="site-title-heading mx-auto mt-4">
                     <a href="<?php echo esc_url(home_url('/')); ?>"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
                        rel="home"><?php bloginfo('name'); ?></a>
@@ -84,36 +84,6 @@
         </div><!--.main-navigation-->
     </header><!--.page-header-->
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class=""
-                     src="http://marshal-golikov.ru/wp-content/themes/bootstrap-basic4/assets/img/slider/00001.jpg">
-
-                <img class=""
-                     src="http://marshal-golikov.ru/wp-content/themes/bootstrap-basic4/assets/img/slider/00002.jpg">
-
-                <img class=""
-                     src="http://marshal-golikov.ru/wp-content/themes/bootstrap-basic4/assets/img/slider/00003.jpg">
-
-                <img class=""
-                     src="http://marshal-golikov.ru/wp-content/themes/bootstrap-basic4/assets/img/slider/00004.jpg">
-
-                <img class=""
-                     src="http://marshal-golikov.ru/wp-content/themes/bootstrap-basic4/assets/img/slider/00005.jpg">
-
-                <img class=""
-                     src="http://marshal-golikov.ru/wp-content/themes/bootstrap-basic4/assets/img/slider/00006.jpg">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+    <?php echo do_shortcode( '[slide-anything id="106"]' ); ?>
 
     <div id="content" class="site-content row row-with-vspace">

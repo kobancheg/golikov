@@ -75,7 +75,8 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
                 wp_enqueue_script('comment-reply');
             }
             wp_enqueue_script('bootstrap-basic4-tether', get_template_directory_uri() . '/assets/js/tether.min.js', array(), '1.3.3', true);// required for Bootstrap tooltip.
-            wp_enqueue_script('bootstrap4', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery'), '4.0.0-a6', true);// minify file will not work. https://github.com/twbs/bootstrap/issues/21634
+            wp_enqueue_script('bootstrap4', get_template_directory_uri() . '/assets/js/bootstrap.js', array('jquery'), '4.0.0-a6', true);
+            // minify file will not work. https://github.com/twbs/bootstrap/issues/21634
         }// enqueueScriptsAndStyles
 
 
