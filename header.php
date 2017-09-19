@@ -83,7 +83,3 @@
 
         </div><!--.main-navigation-->
     </header><!--.page-header-->
-
-    <?php echo do_shortcode( '[slide-anything id="106"]' ); ?>
-
-    <div id="content" class="site-content row row-with-vspace">
