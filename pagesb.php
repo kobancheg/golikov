@@ -39,7 +39,10 @@ get_sidebar();
             }// endif;
             ?>
         </main>
+        <?php
+        get_sidebar('right');
+        ?>
     </div><!--.site-content-->
 <?php
-get_sidebar('right');
+//get_sidebar('right');
 get_footer();

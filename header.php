@@ -26,7 +26,7 @@
 <![endif]-->
 <div class="container page-container">
     <header class="page-header page-header-sitebrand-topbar">
-        <div class="row row-with-vspace site-branding">
+        <div class="row row-with-vspace site-branding no-gutters">
             <div class="col-auto ml-3 page-header-top-right">
                 <div class="sr-only">
                     <a href="#content"
