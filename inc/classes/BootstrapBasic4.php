@@ -140,6 +140,16 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
                 'before_title'  => '<h1 class="widget-title">',
                 'after_title'   => '</h1>',
             ));
+
+            register_sidebar(array(
+                'name'          => __('Widget content', 'bootstrap-basic4'),
+                'id'            => 'widget-content',
+                'before_widget' => '<div class="col-md-4 masonry-content">',
+                'after_widget'  => '</div>',
+                'before_title'  => '',
+                'after_title'   => '',
+            ));
+
         }// registerSidebars
 
 

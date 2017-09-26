@@ -40,7 +40,8 @@ get_sidebar();
                 ?>
             </div>
         </main>
+        <?php dynamic_sidebar('widget-content'); ?>
     </div><!--.site-content-->
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
