@@ -7,7 +7,7 @@
 ?>
 
 <footer id="site-footer" class="site-footer page-footer" role="contentinfo">
-    <div id="footer-row" class="row">
+    <div id="footer-row" class="row d-flex justify-content-around">
         <!--<div class="col-md-6 footer-left">
                         <?php
         /*                        if (!dynamic_sidebar('footer-left')) {
