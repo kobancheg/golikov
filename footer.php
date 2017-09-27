@@ -5,27 +5,25 @@
  * @package bootstrap-basic4
  */
 ?>
-
-<footer id="site-footer" class="site-footer page-footer" role="contentinfo">
-    <div id="footer-row" class="row d-flex justify-content-around">
-        <!--<div class="col-md-6 footer-left">
+<div class="container">
+    <footer id="site-footer" class="site-footer page-footer" role="contentinfo">
+        <div id="footer-row" class="row d-flex justify-content-around">
+            <!--<div class="col-md-6 footer-left">
                         <?php
-        /*                        if (!dynamic_sidebar('footer-left')) {
-                                    printf(__('Powered by %s', 'bootstrap-basic4'), 'WordPress');
-                                    echo ' | ';
-                                    printf(__('Theme: %s', 'bootstrap-basic4'), '<a href="http://rundiz.com">Bootstrap Basic4</a>');
-                                }
-                                */ ?>
+            /*                        if (!dynamic_sidebar('footer-left')) {
+                                        printf(__('Powered by %s', 'bootstrap-basic4'), 'WordPress');
+                                        echo ' | ';
+                                        printf(__('Theme: %s', 'bootstrap-basic4'), '<a href="http://rundiz.com">Bootstrap Basic4</a>');
+                                    }
+                                    */ ?>
                     </div>-->
-        <!--<div class="col-md-6 footer-right text-right">
+            <!--<div class="col-md-6 footer-right text-right">
                         <?php /*dynamic_sidebar('footer-right'); */ ?>
                     </div>-->
-        <?php dynamic_sidebar('footer-right'); ?>
-    </div>
-</footer><!--.page-footer-->
+            <?php dynamic_sidebar('footer-right'); ?>
+        </div>
+    </footer><!--.page-footer-->
 </div><!--.page-container-->
-
-
 <!--wordpress footer-->
 <?php wp_footer(); ?>
 <!--end wordpress footer-->

@@ -15,33 +15,43 @@
 get_header();
 get_sidebar();
 ?>
-
-<?php echo do_shortcode('[slide-anything id="106"]'); ?>
-
-    <div id="content" class="site-content row row-with-vspace">
-
-        <main id="main"
-              class="col-md-12<?php // echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main"
-              role="main">
-            <div class="row">
-                <?php
-                if (have_posts()) {
-                    while (have_posts()) {
-                        the_post();
-                        get_template_part('template-parts/content', get_post_format());
-                    }// endwhile;
-
-                    $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
-                    $Bsb4Design->pagination();
-                    unset($Bsb4Design);
-                } else {
-                    get_template_part('template-parts/section', 'no-results');
-                }// endif;
-                ?>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <?php echo do_shortcode('[slide-anything id="106"]'); ?>
             </div>
-        </main>
-        <?php dynamic_sidebar('widget-content'); ?>
-    </div><!--.site-content-->
+        </div>
+    </div><!--.page-container-->
+    <div class="container">
+        <div id="content" class="site-content row row-with-vspace">
+
+            <main id="main"
+                  class="col-md-12<?php // echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main"
+                  role="main">
+                <div class="row">
+                    <?php
+                    if (have_posts()) {
+                        while (have_posts()) {
+                            the_post();
+                            get_template_part('template-parts/content', get_post_format());
+                        }// endwhile;
+
+                        $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
+                        $Bsb4Design->pagination();
+                        unset($Bsb4Design);
+                    } else {
+                        get_template_part('template-parts/section', 'no-results');
+                    }// endif;
+                    ?>
+                </div>
+            </main>
+        </div><!--.site-content-->
+    </div><!--.page-container-->
+    <div class="container">
+        <div class="row">
+            <?php dynamic_sidebar('widget-content'); ?>
+        </div>
+    </div><!--.page-container-->
 <?php
 //get_sidebar();
 get_footer();
