@@ -302,3 +302,11 @@ Theme's main style.
     height: 300px;
     overflow: hidden;
 }
+
+.site-footer {
+    background-color: transparent;
+    border-top: none;
+    font-size: 12px;
+    padding: 10px;
+    background: url(../img/menu_bg2.jpg) no-repeat no-repeat;
+}
