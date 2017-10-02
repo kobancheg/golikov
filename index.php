@@ -47,9 +47,11 @@ get_sidebar();
             </main>
         </div><!--.site-content-->
     </div><!--.page-container-->
-    <div class="container">
-        <div class="row">
-            <?php dynamic_sidebar('widget-content'); ?>
+    <div class="bg-row">
+        <div class="container">
+            <div class="row">
+                <?php dynamic_sidebar('widget-content'); ?>
+            </div>
         </div>
     </div><!--.page-container-->
 <?php

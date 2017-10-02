@@ -5,8 +5,8 @@
  * @package bootstrap-basic4
  */
 ?>
-<div class="container">
-    <footer id="site-footer" class="site-footer page-footer" role="contentinfo">
+<footer id="site-footer" class="site-footer page-footer" role="contentinfo">
+    <div class="container">
         <div id="footer-row" class="row d-flex justify-content-around">
             <!--<div class="col-md-6 footer-left">
                         <?php
@@ -22,8 +22,8 @@
                     </div>-->
             <?php dynamic_sidebar('footer-right'); ?>
         </div>
-    </footer><!--.page-footer-->
-</div><!--.page-container-->
+    </div><!--.page-container-->
+</footer><!--.page-footer-->
 <!--wordpress footer-->
 <?php wp_footer(); ?>
 <!--end wordpress footer-->
