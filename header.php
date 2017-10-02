@@ -24,9 +24,9 @@
 <p class="ancient-browser-alert"><?php _e('You are using an <strong>outdated</strong> browser. Please <a
         href="http://browsehappy.com/" target="_blank">upgrade your browser</a>.', 'bootstrap-basic4'); ?></p>
 <![endif]-->
+<header class="page-header page-header-sitebrand-topbar site-branding">
 <div class="container page-container">
-    <header class="page-header page-header-sitebrand-topbar">
-        <div class="row row-with-vspace site-branding no-gutters">
+        <div class="row row-with-vspace no-gutters">
             <div class="col-auto ml-3 page-header-top-right">
                 <div class="sr-only">
                     <a href="#content"
@@ -82,5 +82,5 @@
         <!--<div class="row main-navigation">
 
         </div><!--.main-navigation-->
-    </header><!--.page-header-->
 </div><!--.page-container-->
+</header><!--.page-header-->

@@ -298,10 +298,10 @@ Theme's main style.
     background-color: #CEBC8E;
 }
 
-.masonry-content {
+/*.masonry-content {
     height: 300px;
     overflow: hidden;
-}
+}*/
 
 .site-footer {
     background-color: transparent;

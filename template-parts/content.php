@@ -9,9 +9,9 @@
 
 $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
 ?> 
-<article class="col-md-4 masonry-content" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="col-md-4 masonry-content mt-4" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
-        <h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+        <h1 class="h4 entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
         <?php if ('post' == get_post_type()) { ?> 
         <div class="entry-meta">
