@@ -1,8 +1,8 @@
 <?php
-/**
+/** 
  * The page template file.<br>
  * This file works as display page content (post type "page") and its comments.
- *
+ * 
  * @package bootstrap-basic4
  */
 

@@ -1,8 +1,8 @@
 <?php
-/**
+/** 
  * The single post.<br>
  * This file works as display full post content page and its comments.
- *
+ * 
  * @package bootstrap-basic4
  */
 

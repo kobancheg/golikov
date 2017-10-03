@@ -1,7 +1,7 @@
 <?php
-/**
+/** 
  * The theme footer.
- *
+ * 
  * @package bootstrap-basic4
  */
 ?>

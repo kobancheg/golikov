@@ -32,7 +32,6 @@ get_sidebar();
                     echo "\n\n";
                 }// endwhile;
 
-
                 unset($Bsb4Design);
             } else {
                 get_template_part('template-parts/section', 'no-results');
