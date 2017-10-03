@@ -9,8 +9,8 @@
 
 $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
 ?> 
-<article class="col-md-4 masonry-content mt-4" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <header class="entry-header">
+<article class="card" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <header class="card-header entry-header">
         <h1 class="h4 entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
         <?php if ('post' == get_post_type()) { ?> 
@@ -26,7 +26,7 @@ $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
         <div class="clearfix"></div>
     </div><!-- .entry-summary -->
     <?php } else { ?> 
-    <div class="entry-content">
+    <div class="card-body entry-content">
         <?php the_content($Bsb4Design->continueReading(true)); ?> 
         <div class="clearfix"></div>
         <?php 
@@ -42,7 +42,7 @@ $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
     </div><!-- .entry-content -->
     <?php } //endif; ?> 
 
-    <footer class="entry-meta">
+    <footer class="card-footer entry-meta">
         <?php if ('post' == get_post_type()) { // Hide category and tag text for pages on Search ?> 
         <div class="entry-meta-category-tag">
             <?php

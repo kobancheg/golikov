@@ -28,7 +28,7 @@ get_sidebar();
             <main id="main"
                   class="col-md-12<?php // echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main"
                   role="main">
-                <div class="row">
+                <div class="card-deck">
                     <?php
                     if (have_posts()) {
                         while (have_posts()) {
