@@ -15,14 +15,14 @@
 get_header();
 get_sidebar();
 ?>
-    <div class="container-fluid">
+    <div class="container-fluid mb-4">
         <div class="row">
             <div class="col-12">
                 <?php echo do_shortcode('[slide-anything id="106"]'); ?>
             </div>
         </div>
     </div><!--.page-container-->
-    <div class="container">
+    <div class="container mb-4">
         <div id="content" class="site-content row row-with-vspace">
 
             <main id="main"
@@ -47,15 +47,15 @@ get_sidebar();
             </main>
         </div><!--.site-content-->
     </div><!--.page-container-->
-    <div class="bg-row">
+    <div class="bg-row mb-4">
         <div class="container">
-            <div class="row">
+            <div class="card-deck">
                 <?php dynamic_sidebar('widget-content'); ?>
             </div>
         </div>
     </div><!--.page-container-->
-    <div class="container">
-        <div class="row">
+    <div class="container mb-4">
+        <div class="card-deck">
             <?php dynamic_sidebar('widget-present'); ?>
         </div>
     </div>

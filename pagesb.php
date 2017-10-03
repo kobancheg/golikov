@@ -9,39 +9,40 @@ get_header();
 get_sidebar();
 ?>
 
-    <div id="content" class="site-content row row-with-vspace">
+    <div class="container-fluid mb-4">
+        <div id="content" class="site-content row row-with-vspace">
+            <main id="main"
+                  class="col-md-<?php echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main"
+                  role="main">
+                <?php
+                if (have_posts()) {
+                    $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
+                    while (have_posts()) {
+                        the_post();
+                        get_template_part('template-parts/content', 'page');
+                        echo "\n\n";
 
-        <main id="main"
-              class="col-md-<?php echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main"
-              role="main">
+                        $Bsb4Design->pagination();
+                        echo "\n\n";
+
+                        // If comments are open or we have at least one comment, load up the comment template
+                        if (comments_open() || '0' != get_comments_number()) {
+                            comments_template();
+                        }
+                        echo "\n\n";
+                    }// endwhile;
+
+                    unset($Bsb4Design);
+                } else {
+                    get_template_part('template-parts/section', 'no-results');
+                }// endif;
+                ?>
+            </main>
             <?php
-            if (have_posts()) {
-                $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
-                while (have_posts()) {
-                    the_post();
-                    get_template_part('template-parts/content', 'page');
-                    echo "\n\n";
-
-                    $Bsb4Design->pagination();
-                    echo "\n\n";
-
-                    // If comments are open or we have at least one comment, load up the comment template
-                    if (comments_open() || '0' != get_comments_number()) {
-                        comments_template();
-                    }
-                    echo "\n\n";
-                }// endwhile;
-
-                unset($Bsb4Design);
-            } else {
-                get_template_part('template-parts/section', 'no-results');
-            }// endif;
+            get_sidebar('right');
             ?>
-        </main>
-        <?php
-        get_sidebar('right');
-        ?>
-    </div><!--.site-content-->
+        </div><!--.site-content-->
+    </div><!--.page-container-->
 <?php
 //get_sidebar('right');
 get_footer();
