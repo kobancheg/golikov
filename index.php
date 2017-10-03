@@ -54,6 +54,11 @@ get_sidebar();
             </div>
         </div>
     </div><!--.page-container-->
+    <div class="container">
+        <div class="row">
+            <?php dynamic_sidebar('widget-present'); ?>
+        </div>
+    </div>
 <?php
 //get_sidebar();
 get_footer();

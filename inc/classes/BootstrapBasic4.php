@@ -143,7 +143,16 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
             register_sidebar(array(
                 'name'          => __('Widget content', 'bootstrap-basic4'),
                 'id'            => 'widget-content',
-                'before_widget' => '<div class="col-md-4 masonry-content">',
+                'before_widget' => '<div class="col-md-4">',
+                'after_widget'  => '</div>',
+                'before_title'  => '',
+                'after_title'   => '',
+            ));
+
+            register_sidebar(array(
+                'name'          => __('Widget present', 'bootstrap-basic4'),
+                'id'            => 'widget-present',
+                'before_widget' => '<div class="col-md-4">',
                 'after_widget'  => '</div>',
                 'before_title'  => '',
                 'after_title'   => '',

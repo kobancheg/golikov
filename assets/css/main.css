@@ -280,3 +280,7 @@ Theme's main style.
     padding: 10px;
     background: url(../img/menu_bg2.jpg) no-repeat no-repeat;
 }
+
+.bg-row {
+    background-color: #CEBC8E;
+}
