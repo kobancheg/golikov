@@ -24,8 +24,8 @@
 <p class="ancient-browser-alert"><?php _e('You are using an <strong>outdated</strong> browser. Please <a
         href="http://browsehappy.com/" target="_blank">upgrade your browser</a>.', 'bootstrap-basic4'); ?></p>
 <![endif]-->
-<header class="page-header page-header-sitebrand-topbar site-branding">
-    <div class="container page-container">
+<div class="container page-container">
+    <header class="page-header site-branding mb-4">
         <div class="row row-with-vspace no-gutters">
             <div class="col-auto ml-3 page-header-top-right">
                 <div class="sr-only">
@@ -36,7 +36,6 @@
                     <div class="float-xs-right">
                         <?php dynamic_sidebar('header-right'); ?>
                     </div>
-                    <!--<div class="clearfix"></div>-->
                 <?php } // endif; ?>
             </div>
             <div class="col-md-10 site-title d-flex align-content-between flex-wrap">
@@ -72,15 +71,6 @@
                     </div><!--.navbar-collapse-->
                     <div class="clearfix"></div>
                 </nav>
-                <!--<div class="site-description">
-                    <small>
-                        <?php /*bloginfo('description'); */ ?>
-                    </small>
-                </div>-->
             </div>
         </div><!--.site-branding-->
-        <!--<div class="row main-navigation">
-
-        </div><!--.main-navigation-->
-    </div><!--.page-container-->
-</header><!--.page-header-->
+    </header><!--.page-header-->

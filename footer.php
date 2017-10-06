@@ -1,10 +1,13 @@
 <?php
-/** 
+/**
  * The theme footer.
- * 
+ *
  * @package bootstrap-basic4
  */
 ?>
+</div><!--.site-content-->
+</div><!--.page-container-->
+
 <footer id="site-footer" class="site-footer page-footer" role="contentinfo">
     <div class="container">
         <div id="footer-row" class="row d-flex justify-content-around">
@@ -22,7 +25,6 @@
                     </div>-->
             <?php dynamic_sidebar('footer-right'); ?>
         </div>
-    </div><!--.page-container-->
 </footer><!--.page-footer-->
 <!--wordpress footer-->
 <?php wp_footer(); ?>
