@@ -21,8 +21,7 @@ get_sidebar();
         </div>
     </div>
     <div id="content" class="site-content">
-        <main id="main" class="card-deck mb-4<?php // echo \BootstrapBasic4\Bootstrap4Utilities::getMainColumnSize(); ?> site-main" role="main">
-            <!--        <div class="card-deck">-->
+        <main id="main" class="row site-main" role="main">
             <?php
             if (have_posts()) {
                 while (have_posts()) {
@@ -37,7 +36,6 @@ get_sidebar();
                 get_template_part('template-parts/section', 'no-results');
             }// endif;
             ?>
-            <!--        </div>-->
         </main>
     </div><!--.site-content-->
     <div class="card-deck mb-4">

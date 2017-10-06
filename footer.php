@@ -8,7 +8,7 @@
 
 </div><!--.page-container-->
 
-<footer id="site-footer" class="site-footer page-footer" role="contentinfo">
+<footer id="site-footer" class="site-footer page-footer pt-4" role="contentinfo">
     <div class="container">
         <div id="footer-row" class="row d-flex justify-content-around">
             <!--<div class="col-md-6 footer-left">
