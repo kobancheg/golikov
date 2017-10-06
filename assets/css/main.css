@@ -11,6 +11,8 @@ html {
 }
 body {
     margin-bottom: 90px;
+    background: url(../img/pt602.jpg);
+    background-size: contain;
 }
 
 /* ancient-browser-alert error */
@@ -254,7 +256,7 @@ body {
 }
 
 .site-branding {
-    background: url('../img/menu_bg2.jpg') no-repeat no-repeat;
+    /*background: url('../img/menu_bg2.jpg') no-repeat no-repeat;*/
 }
 
 .bg-faded {
@@ -277,7 +279,8 @@ body {
 }
 
 .btn-link, .btn-link:active, .btn-link:focus {
-    background-color: #CEBC8E;
+    background-color: #450A00;
+    /*background: url(../img/1-fon-dlya-sayta.jpg);*/
 }
 
 .site-footer {
@@ -288,9 +291,10 @@ body {
     border-top: none;
     font-size: 12px;
     padding: 10px;
-    background: url(../img/menu_bg2.jpg) no-repeat no-repeat;
+    /*background: url(../img/menu_bg2.jpg) no-repeat no-repeat;*/
 }
 
 .bg-row {
-    background-color: #CEBC8E;
+    /*background-color: #450A00;*/
+    /*background: url(../img/1-fon-dlya-sayta.jpg);*/
 }
