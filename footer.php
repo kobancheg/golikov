@@ -5,7 +5,7 @@
  * @package bootstrap-basic4
  */
 ?>
-</div><!--.site-content-->
+
 </div><!--.page-container-->
 
 <footer id="site-footer" class="site-footer page-footer" role="contentinfo">

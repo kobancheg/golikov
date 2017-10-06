@@ -38,6 +38,7 @@ get_sidebar();
             }// endif;
             ?>
         </main>
+    </div><!--.site-content-->
 <?php
 get_sidebar();
 get_footer();
