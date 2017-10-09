@@ -10,7 +10,7 @@
 $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
 ?>
 
-<div class="col-12 col-md-6 d-flex align-items-stretch mb-4">
+<div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch mb-4">
     <article class="card" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="card-header entry-header">
             <h1 class="h4 entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
@@ -79,4 +79,4 @@ $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
         </footer><!-- .entry-meta -->
     </article><!-- #post-## -->
 </div>
-<?php unset($Bsb4Design); ?> 
+<?php unset($Bsb4Design); ?>

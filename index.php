@@ -2,9 +2,9 @@
 /**
  * The main template file.
  *
- * To override home page (for listing latest post) add home.php into the theme.<br>
+ * To override home page (for listing latest post) add front-page.php into the theme.<br>
  * If front page displays is set to static, the index.php file will be use.<br>
- * If front-page.php exists, it will be override any home page file such as home.php, index.php.<br>
+ * If front-page.php exists, it will be override any home page file such as front-page.php, index.php.<br>
  * To learn more please go to https://developer.wordpress.org/themes/basics/template-hierarchy/ .
  *
  * @package bootstrap-basic4
@@ -38,12 +38,12 @@ get_sidebar();
             ?>
         </main>
     </div><!--.site-content-->
-    <div class="card-deck mb-4">
-        <?php dynamic_sidebar('widget-content'); ?>
+    <!--<div class="card-deck mb-4">
+        <?php /*dynamic_sidebar('widget-content'); */?>
     </div>
     <div class="card-deck mb-4">
-        <?php dynamic_sidebar('widget-present'); ?>
-    </div>
+        <?php /*dynamic_sidebar('widget-present'); */?>
+    </div>-->
 <?php
 //get_sidebar();
 get_footer();
