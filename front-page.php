@@ -35,7 +35,7 @@ get_sidebar();
             <?php endwhile; ?>
         </main>
     </div><!--.site-content-->
-    <div class="card-deck mb-4">
+    <div class="row custom-cont mx-0 mb-4">
         <?php dynamic_sidebar('widget-content'); ?>
     </div>
     <div class="card-deck mb-4">

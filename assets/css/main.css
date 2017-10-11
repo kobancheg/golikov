@@ -12,7 +12,7 @@ html {
     min-height: 100%;
 }
 body {
-    margin-bottom: 90px;
+    margin-bottom: 7rem;
     background: url(../img/pt602.jpg);
     background-size: contain;
 }
@@ -23,6 +23,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+}
+
+.menu-item a {
     font-family: 'Poiret One', cursive;
     font-weight: 600;
 }
@@ -40,7 +45,6 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: underline;
 }
 
-
 .pagination {
     margin: 0;
 }
@@ -51,16 +55,13 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 20px;
 }
 
-
 .page-header {
     margin-bottom: 20px;
 }
 
-
 .page-header-top-right {
     margin-top: 10px;
 }
-
 
 .post-view-attachment .entry-attachment .attachment {
     text-align: center;
@@ -77,13 +78,6 @@ h1,h2,h3,h4,h5,h6 {
 .row-with-vspace {
     margin-bottom: 20px;
 }
-
-/*.site-footer {
-    background-color: #f5f5f5;
-    border-top: 3px solid #ddd;
-    font-size: 12px;
-    padding: 10px;
-}*/
 
 .site-main .format-aside {
     background: #f5f5f5;
@@ -249,27 +243,12 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
 }
 
-
 /* Fix Bootstrap 4 */
 .navbar {
     min-height: 54px; /* With this, we can use navbar without navbar-brand */
 }
 
 /*main*/
-
-.navbar-light {
-    /*background: url('../img/menu_bg.jpg') no-repeat no-repeat;*/
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7751f+0,f7751f+7,000000+8,000000+24,f7751f+25,f7751f+41,000000+42,000000+58,f7751f+59,f7751f+75,000000+76,000000+92,f7751f+93,f7751f+100 */
-    /*  background: #f7751f; !* Old browsers *!
-       background: -moz-linear-gradient(top,  #f7751f 0%, #f7751f 7%, #000000 8%, #000000 24%, #f7751f 25%, #f7751f 41%, #000000 42%, #000000 58%, #f7751f 59%, #f7751f 75%, #000000 76%, #000000 92%, #f7751f 93%, #f7751f 100%); !* FF3.6-15 *!
-       background: -webkit-linear-gradient(top,  #f7751f 0%,#f7751f 7%,#000000 8%,#000000 24%,#f7751f 25%,#f7751f 41%,#000000 42%,#000000 58%,#f7751f 59%,#f7751f 75%,#000000 76%,#000000 92%,#f7751f 93%,#f7751f 100%); !* Chrome10-25,Safari5.1-6 *!
-       background: linear-gradient(to bottom,  #f7751f 0%,#f7751f 7%,#000000 8%,#000000 24%,#f7751f 25%,#f7751f 41%,#000000 42%,#000000 58%,#f7751f 59%,#f7751f 75%,#000000 76%,#000000 92%,#f7751f 93%,#f7751f 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
-       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7751f', endColorstr='#f7751f',GradientType=0 ); !* IE6-9 *!*/
-}
-
-.site-branding {
-    /*background: url('../img/menu_bg2.jpg') no-repeat no-repeat;*/
-}
 
 .bg-faded {
     background-color: transparent !important;
@@ -285,27 +264,30 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
 }
 
-.site-title-heading a {
+.site-title-heading a,
+.entry-title a,
+.entry-meta a {
     color: #333;
 }
 
-.btn-link, .btn-link:active, .btn-link:focus {
-    /*background-color: #450A00;*/
+.entry-meta-comment-tools,
+.entry-meta .posted-on,
+.entry-meta .byline {
+    display: none;
+}
+
+.btn-link, .btn-link:active, .btn-link:focus,
+.card-header, .card-footer,
+.site-footer, .custom-cont {
     background: url(../img/met-patt-04.jpg);
 }
 
 .site-footer {
     position: absolute;
     width: 100%;
-    height: 90px;
+    height: 85px;
     bottom: 0;
     border-top: none;
     font-size: 12px;
     padding: 10px;
-    /*background: url(../img/menu_bg2.jpg) no-repeat no-repeat;*/
-}
-
-.bg-row {
-    /*background-color: #450A00;*/
-    /*background: url(../img/1-fon-dlya-sayta.jpg);*/
 }

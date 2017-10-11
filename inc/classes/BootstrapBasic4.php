@@ -143,8 +143,8 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
             register_sidebar(array(
                 'name'          => __('Widget content', 'bootstrap-basic4'),
                 'id'            => 'widget-content',
-                'before_widget' => '<div class="card">',
-                'after_widget'  => '</div>',
+                'before_widget' => '<div class="col-12 col-md-6 col-lg-4"><div class="card">',
+                'after_widget'  => '</div></div>',
                 'before_title'  => '',
                 'after_title'   => '',
             ));
