@@ -5,6 +5,8 @@ Theme's main style.
 */
 @import 'flexvideo.css';
 
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
+
 html {
     position: relative;
     min-height: 100%;
@@ -13,6 +15,14 @@ body {
     margin-bottom: 90px;
     background: url(../img/pt602.jpg);
     background-size: contain;
+}
+
+h1,h2,h3,h4,h5,h6,a {
+    font-family: 'Poiret One', cursive;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'Poiret One', cursive;
 }
 
 /* ancient-browser-alert error */
@@ -269,18 +279,17 @@ body {
 }
 
 .site-title-heading {
-    font-size: 1.65rem;
-    font-family: Impact;
-    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 800;
 }
 
 .site-title-heading a {
-    color: #ffffff;
+    color: #333;
 }
 
 .btn-link, .btn-link:active, .btn-link:focus {
-    background-color: #450A00;
-    /*background: url(../img/1-fon-dlya-sayta.jpg);*/
+    /*background-color: #450A00;*/
+    background: url(../img/met-patt-04.jpg);
 }
 
 .site-footer {
