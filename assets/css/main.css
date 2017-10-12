@@ -282,6 +282,26 @@ h1,h2,h3,h4,h5,h6 {
     background: url(../img/met-patt-04.jpg);
 }
 
+.custom-cont > div.widget_text {
+    padding: 1.5rem;
+}
+
+.custom-cont .widget_text.card {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0 1.5rem;
+}
+
+.custom-cont .custom-html-widget {
+    border-bottom: 1px solid rgb(249, 96, 0);
+    padding: 1.25rem 0;
+}
+
+.custom-cont .fa {
+    color: rgb(249, 96, 0);
+}
+
 .site-footer {
     position: absolute;
     width: 100%;

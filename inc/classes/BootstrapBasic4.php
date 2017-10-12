@@ -143,7 +143,8 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
             register_sidebar(array(
                 'name'          => __('Widget content', 'bootstrap-basic4'),
                 'id'            => 'widget-content',
-                'before_widget' => '<div class="col-12 col-md-6 col-lg-4"><div class="card">',
+                'before_widget' => '<div class="col-12 col-md-6 col-lg-4"><div class="card">
+                                    <i class="fa fa-quote-left text-center" aria-hidden="true"></i>',
                 'after_widget'  => '</div></div>',
                 'before_title'  => '',
                 'after_title'   => '',

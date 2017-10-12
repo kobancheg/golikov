@@ -44,7 +44,7 @@
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
                        rel="home"><?php bloginfo('name'); ?></a>
                 </h1>
-                <nav class="navbar navbar-expand-sm mx-auto bg-faded">
+                <nav class="navbar navbar-expand-md mx-auto bg-faded">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#bootstrap-basic4-topnavbar" aria-controls="bootstrap-basic4-topnavbar"
                             aria-expanded="false"
