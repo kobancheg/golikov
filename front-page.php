@@ -38,10 +38,10 @@ get_sidebar();
         <?php dynamic_sidebar('widget-content'); ?>
     </div>
     <div class="row">
-        <div class="col-12 col-lg-6 mb-4">
+        <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
             <?php dynamic_sidebar('widget-present-1'); ?>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 d-flex align-items-stretch">
             <div class="row">
                 <?php dynamic_sidebar('widget-present-2'); ?>
             </div>
