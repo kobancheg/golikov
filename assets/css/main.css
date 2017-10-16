@@ -12,7 +12,7 @@ html {
     min-height: 100%;
 }
 body {
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
     background: url(../img/pt602.jpg);
     background-size: contain;
 }
@@ -319,7 +319,7 @@ hr.custom {
 .site-footer {
     position: absolute;
     width: 100%;
-    height: 85px;
+    min-height: 85px;
     bottom: 0;
     border-top: none;
     font-size: 12px;
