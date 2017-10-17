@@ -27,7 +27,7 @@
 <div class="container page-container">
     <header class="page-header site-branding mb-4">
         <div class="row row-with-vspace no-gutters">
-            <div class="col-auto ml-3 page-header-top-right">
+            <div class="col-2 text-lg-center text-xl-right">
                 <div class="sr-only">
                     <a href="#content"
                        title="<?php esc_attr_e('Skip to content', 'bootstrap-basic4'); ?>"><?php _e('Skip to content', 'bootstrap-basic4'); ?></a>
@@ -38,13 +38,13 @@
                     </div>
                 <?php } // endif; ?>
             </div>
-            <div class="col-md-10 site-title d-flex align-content-between flex-wrap">
+            <div class="col-9 site-title d-flex align-content-between flex-wrap">
                 <h1 class="site-title-heading mx-auto mt-4">
                     <a href="<?php echo esc_url(home_url('/')); ?>"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
                        rel="home"><?php bloginfo('name'); ?></a>
                 </h1>
-                <nav class="navbar navbar-expand-md mx-auto bg-faded">
+                <nav class="navbar navbar-expand-lg mx-auto p-0">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#bootstrap-basic4-topnavbar" aria-controls="bootstrap-basic4-topnavbar"
                             aria-expanded="false"

@@ -59,9 +59,9 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 20px;
 }
 
-.page-header-top-right {
-    margin-top: 10px;
-}
+/*.page-header-top-right {*/
+    /*margin-top: 10px;*/
+/*}*/
 
 .post-view-attachment .entry-attachment .attachment {
     text-align: center;
@@ -244,9 +244,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Fix Bootstrap 4 */
-.navbar {
-    min-height: 54px; /* With this, we can use navbar without navbar-brand */
-}
+/*.navbar {*/
+    /*min-height: 54px; !* With this, we can use navbar without navbar-brand *!*/
+/*}*/
 
 /*main*/
 
