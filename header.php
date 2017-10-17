@@ -38,7 +38,7 @@
                     </div>
                 <?php } // endif; ?>
             </div>
-            <div class="col-9 site-title d-flex align-content-between flex-wrap">
+            <div class="col-md-10 col-lg-9 site-title d-flex align-content-between flex-wrap">
                 <h1 class="site-title-heading mx-auto mt-4">
                     <a href="<?php echo esc_url(home_url('/')); ?>"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
