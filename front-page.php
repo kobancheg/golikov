@@ -9,7 +9,7 @@ Template Post Type: post, page, product
 get_header();
 get_sidebar();
 ?>
-    <div class="row mb-4">
+    <div class="row mb-4 d-none d-sm-block">
         <div class="col-12">
             <?php echo do_shortcode('[slide-anything id="106"]'); ?>
         </div>
