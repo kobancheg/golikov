@@ -38,13 +38,13 @@
                     </div>
                 <?php } // endif; ?>
             </div>
-            <div class="col-10 col-lg-9 site-title d-flex align-content-between flex-wrap pl-3 pl-md-0">
-                <h1 class="site-title-heading mx-auto mt-4 text-sm-center order-2 order-lg-1">
+            <div class="col-10 col-lg-9 site-title d-flex align-content-lg-between flex-wrap-reverse flex-lg-wrap pl-3 pl-md-0">
+                <h1 class="site-title-heading mx-auto mt-4 text-sm-center">
                     <a href="<?php echo esc_url(home_url('/')); ?>"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
                        rel="home"><?php bloginfo('name'); ?></a>
                 </h1>
-                <nav class="navbar navbar-expand-lg mx-lg-auto order-1 order-lg-2 navbar-light">
+                <nav class="navbar navbar-expand-lg mx-lg-auto navbar-light align-self-center">
                     <a class="navbar-brand d-block d-lg-none h2 mb-0" href="#">Меню</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#bootstrap-basic4-topnavbar" aria-controls="bootstrap-basic4-topnavbar"
