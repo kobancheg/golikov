@@ -38,13 +38,14 @@
                     </div>
                 <?php } // endif; ?>
             </div>
-            <div class="col-10 col-lg-9 site-title d-flex align-content-between flex-wrap">
+            <div class="col-10 col-lg-9 site-title d-flex align-content-between flex-wrap pl-3 pl-md-0">
                 <h1 class="site-title-heading mx-auto mt-4 text-sm-center order-2 order-lg-1">
                     <a href="<?php echo esc_url(home_url('/')); ?>"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
                        rel="home"><?php bloginfo('name'); ?></a>
                 </h1>
-                <nav class="navbar navbar-expand-lg mx-auto p-0 order-1 order-lg-2">
+                <nav class="navbar navbar-expand-lg mx-lg-auto order-1 order-lg-2 navbar-light">
+                    <a class="navbar-brand d-block d-lg-none h2 mb-0" href="#">Меню</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#bootstrap-basic4-topnavbar" aria-controls="bootstrap-basic4-topnavbar"
                             aria-expanded="false"
@@ -59,7 +60,7 @@
                                 'depth' => '0',
                                 'theme_location' => 'primary',
                                 'container' => false,
-                                'menu_class' => 'navbar-nav mr-auto',
+                                'menu_class' => 'navbar-nav',
                                 'walker' => new \BootstrapBasic4\BootstrapBasic4WalkerNavMenu()
                             )
                         );
@@ -67,9 +68,7 @@
                         <div class="float-md-right">
                             <?php dynamic_sidebar('navbar-right'); ?>
                         </div>
-                        <div class="clearfix"></div>
                     </div><!--.navbar-collapse-->
-                    <div class="clearfix"></div>
                 </nav>
             </div>
         </div><!--.site-branding-->

@@ -257,6 +257,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #menu-top_menu .nav-link {
     color: #fff;
+    text-align: left;
 }
 
 .site-title-heading {
@@ -324,4 +325,18 @@ hr.custom {
     border-top: none;
     font-size: 12px;
     padding: 10px;
+}
+
+nav.navbar {
+    padding-bottom: 0!important;
+    padding-left: 0!important;
+}
+
+@media (max-width: 992px) {
+    nav.navbar {
+        background: url(../img/met-patt-04.jpg);
+        width: 100%;
+        padding-bottom: 0.5rem!important;
+        padding-left: 1rem!important;
+    }
 }
