@@ -27,7 +27,7 @@
 <div class="container page-container">
     <header class="page-header site-branding mb-4">
         <div class="row row-with-vspace no-gutters">
-            <div class="col-2 text-lg-center text-xl-right">
+            <div class="col-2 text-lg-center text-xl-right mt-2 mt-md-0 d-none d-sm-block">
                 <div class="sr-only">
                     <a href="#content"
                        title="<?php esc_attr_e('Skip to content', 'bootstrap-basic4'); ?>"><?php _e('Skip to content', 'bootstrap-basic4'); ?></a>
@@ -38,11 +38,13 @@
                     </div>
                 <?php } // endif; ?>
             </div>
-            <div class="col-10 col-lg-9 site-title d-flex align-content-lg-between flex-wrap-reverse flex-lg-wrap pl-3 pl-md-0">
-                <h1 class="site-title-heading mx-auto mt-4 text-sm-center">
+            <div class="col-12 col-sm-10 col-lg-9 site-title d-flex align-content-lg-between
+                flex-wrap-reverse flex-lg-wrap pl-0 pl-sm-3 pl-md-0">
+                <h1 class="site-title-heading mx-auto mt-2 mt-sm-3 mt-lg-4 text-sm-center">
                     <a href="<?php echo esc_url(home_url('/')); ?>"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
-                       rel="home"><?php bloginfo('name'); ?></a>
+                       rel="home"><? //php bloginfo('name'); ?>Маршал Советского Союза <br class="d-md-none">Филипп
+                        Иванович Голиков</a>
                 </h1>
                 <nav class="navbar navbar-expand-lg mx-lg-auto navbar-light align-self-center">
                     <a class="navbar-brand d-block d-lg-none h2 mb-0" href="#">Меню</a>
