@@ -134,7 +134,7 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
             register_sidebar(array(
                 'name'          => __('Footer right', 'bootstrap-basic4'),
                 'id'            => 'footer-right',
-                'before_widget' => '<div class="col-12 col-sm-4 col-lg-3">',
+                'before_widget' => '<div class="col-6 col-md-3">',
                 'after_widget'  => '</div>',
                 'before_title'  => '',
                 'after_title'   => '',

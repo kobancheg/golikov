@@ -10,7 +10,7 @@
 
 <footer id="site-footer" class="site-footer page-footer pt-3" role="contentinfo">
     <div class="container">
-        <div id="footer-row" class="row d-flex justify-content-around">
+        <div id="footer-row" class="row">
             <?php dynamic_sidebar('footer-right'); ?>
         </div>
 </footer><!--.page-footer-->

@@ -17,6 +17,30 @@ body {
     background-size: contain;
 }
 
+@media (max-width: 992px) {
+    body {
+        margin-bottom: 8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-bottom: 10rem;
+    }
+}
+
+@media (max-width: 465px) {
+    body {
+        margin-bottom: 11rem;
+    }
+}
+
+@media (max-width: 385px) {
+    body {
+        margin-bottom: 12rem;
+    }
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poiret One', cursive;
     font-weight: 600;
