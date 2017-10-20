@@ -9,12 +9,12 @@
 
 $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <header class="entry-header">
-        <h1 class="entry-title"><?php the_title(); ?></h1>
+<article class="card mb-4" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <header class="card-header entry-header">
+        <h1 class="h4 entry-title"><?php the_title(); ?></h1>
     </header><!-- .entry-header -->
 
-    <div class="entry-content">
+    <div class="card-body entry-content">
         <?php the_content(); ?> 
         <div class="clearfix"></div>
         <?php
@@ -29,7 +29,7 @@ $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
         ?>
     </div><!-- .entry-content -->
 
-    <footer class="entry-meta">
+    <footer class="card-footer entry-meta">
         <?php $Bsb4Design->editPostLink(); ?> 
     </footer>
 </article><!-- #post-## -->

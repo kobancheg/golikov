@@ -15,13 +15,9 @@
 get_header();
 get_sidebar();
 ?>
-    <div class="row mb-4">
-        <div class="col-12">
-            <?php echo do_shortcode('[slide-anything id="106"]'); ?>
-        </div>
-    </div>
-    <div id="content" class="site-content">
-        <main id="main" class="row site-main" role="main">
+
+    <div id="content" class="site-content row">
+        <main id="main" class="col-md-12 site-main" role="main">
             <?php
             if (have_posts()) {
                 while (have_posts()) {

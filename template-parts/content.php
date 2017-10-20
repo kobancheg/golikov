@@ -9,9 +9,7 @@
 
 $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
 ?>
-
-<div class="col-12 mb-4">
-    <article class="card" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <article class="card mb-4" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="card-header entry-header">
             <h1 class="h4 entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
@@ -78,5 +76,4 @@ $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
             </div><!--.entry-meta-comment-tools-->
         </footer><!-- .entry-meta -->
     </article><!-- #post-## -->
-</div>
 <?php unset($Bsb4Design); ?> 
