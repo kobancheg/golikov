@@ -304,7 +304,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .custom-cont .custom-html-widget {
-    /*border-bottom: 1px solid rgb(249, 96, 0);*/
     padding: 1.25rem 0 0;
     font-size: 0.8rem;
     font-style: italic;
