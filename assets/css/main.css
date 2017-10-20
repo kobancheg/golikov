@@ -12,32 +12,26 @@ html {
     min-height: 100%;
 }
 body {
-    margin-bottom: 6rem;
+    margin-bottom: 5.5rem;
     background: url(../img/pt6021.jpg);
     background-size: contain;
 }
 
 @media (max-width: 992px) {
     body {
-        margin-bottom: 8rem;
+        margin-bottom: 6.5rem;
     }
 }
 
 @media (max-width: 768px) {
     body {
-        margin-bottom: 10rem;
-    }
-}
-
-@media (max-width: 465px) {
-    body {
-        margin-bottom: 11rem;
+        margin-bottom: 9rem;
     }
 }
 
 @media (max-width: 385px) {
     body {
-        margin-bottom: 12rem;
+        margin-bottom: 10rem;
     }
 }
 
@@ -354,4 +348,10 @@ nav.navbar {
         padding-bottom: 0.5rem!important;
         padding-left: 1rem!important;
     }
+}
+
+#footer-row ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
 }

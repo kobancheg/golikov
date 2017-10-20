@@ -8,7 +8,7 @@
 
 </div><!--.page-container-->
 
-<footer id="site-footer" class="site-footer page-footer pt-3" role="contentinfo">
+<footer id="site-footer" class="site-footer page-footer py-3" role="contentinfo">
     <div class="container">
         <div id="footer-row" class="row">
             <?php dynamic_sidebar('footer-right'); ?>
