@@ -6,6 +6,12 @@ get_sidebar();
 ?>
     <div id="content" class="site-content row row-with-vspace">
         <main id="main" class="col-md-12 site-main" role="main">
+            <header class="page-header">
+                <?php
+                the_archive_title('<h1 class="page-title h4">', '</h1>');
+                the_archive_description('<div class="taxonomy-description">', '</div>');
+                ?>
+            </header><!-- .page-header -->
             <?php
             if (have_posts()) {
                 $Bsb4Design = new \BootstrapBasic4\Bsb4Design();
