@@ -3,6 +3,7 @@ Theme's main style.
 
 @author Vee W.
 */
+
 @import 'flexvideo.css';
 
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
@@ -13,8 +14,11 @@ html {
 }
 body {
     margin-bottom: 5.5rem;
-    background: url(../img/pt6021.jpg);
+    background-image: url(../img/pt6021.jpg);
+    background-position: center top;
     background-size: contain;
+    background-repeat: no-repeat repeat;
+    background-attachment: scroll;
 }
 
 @media (max-width: 992px) {
@@ -353,4 +357,10 @@ nav.navbar {
     padding-left: 0;
     list-style: none;
     margin-bottom: 0;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 0 0.5rem;
 }
