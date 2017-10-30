@@ -16,7 +16,7 @@ body {
     margin-bottom: 5.5rem;
     background-image: url(../img/pt6021.jpg);
     background-position: center top;
-    background-size: contain;
+    background-size: 100% auto;
     background-repeat: no-repeat repeat;
     background-attachment: scroll;
 }
