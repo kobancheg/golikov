@@ -6,7 +6,6 @@
  * @package bootstrap-basic4
  */
 
-
 // begins template. -------------------------------------------------------------------------
 get_header();
 get_sidebar();

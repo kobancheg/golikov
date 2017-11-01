@@ -364,3 +364,12 @@ figcaption {
     font-style: italic;
     padding: 0 0.5rem;
 }
+
+div#bwg_album_masonry_0 {
+    position: relative;
+    width: 100%;
+}
+
+div#album_name_container {
+    text-align: center;
+}
