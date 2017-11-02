@@ -373,3 +373,8 @@ div#bwg_album_masonry_0 {
 div#album_name_container {
     text-align: center;
 }
+
+.img-fluid {
+    max-width: 100%!important;
+    height: auto!important;
+}
