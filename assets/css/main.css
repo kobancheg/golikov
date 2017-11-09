@@ -378,3 +378,7 @@ div#album_name_container {
     max-width: 100%!important;
     height: auto!important;
 }
+
+#footer-row a {
+    color: #212529;
+}
