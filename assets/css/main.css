@@ -297,7 +297,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .custom-cont > div.widget_text {
-    padding: 1.5rem 1.5rem 0.5rem;
+    padding: 1.5rem 1.5rem 0;
 }
 
 .custom-cont .widget_text.card {
@@ -308,25 +308,26 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .custom-cont .custom-html-widget {
-    padding: 1.25rem 0 0;
     font-size: 0.8rem;
     font-style: italic;
 }
 
 img.avatar {
     position: relative;
-    top: 1.25rem;
     z-index: 1;
 }
 
 hr.custom {
     border-top: 1px solid rgb(249, 96, 0);
     position: relative;
-    bottom: 2rem;
+    bottom: 2.65rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .custom-cont .fa {
     color: rgb(249, 96, 0);
+    padding: 1rem 0;
 }
 
 .site-footer {
@@ -381,4 +382,8 @@ div#album_name_container {
 
 #footer-row a {
     color: #212529;
+}
+
+.bwg_masonry_thumb_description_0 {
+    font-weight: 600;
 }

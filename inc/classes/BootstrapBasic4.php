@@ -1,7 +1,7 @@
 <?php
 /**
  * The Bootstrap Basic 4 main functional file.
- * 
+ *
  * @package bootstrap-basic4
  */
 
@@ -11,14 +11,14 @@ namespace BootstrapBasic4;
 if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
     /**
      * Bootstrap Basic 4 main functional in class style.
-     * 
+     *
      * This class will be handle all the main hooks that work with theme features such as add theme support features, register widgets area or sidebar, enqueue scripts and styles.<br>
      * If you want to hook into WordPress and make changes or modification, please use \BootstrapBasic4\Hooks\Bsb4Hooks() class.<br>
      * To use, just code as follows:
-     * 
+     *
      * $BootstrapBasic4 = new \BootstrapBasic4\BootstrapBasic4();
      * $BootstrapBasic4->addActionsFilters();
-     * 
+     *
      * That's it.
      */
     class BootstrapBasic4
@@ -60,7 +60,7 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
 
         /**
          * Enqueue scripts and styles.
-         * 
+         *
          * @access private Do not access this method directly. This is for hook callback not for direct call.
          */
         public function enqueueScriptsAndStyles()
@@ -81,7 +81,7 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
 
         /**
          * Register sidebars
-         * 
+         *
          * @access private Do not access this method directly. This is for hook callback not for direct call.
          */
         public function registerSidebars()
@@ -143,9 +143,8 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
             register_sidebar(array(
                 'name'          => __('Widget content', 'bootstrap-basic4'),
                 'id'            => 'widget-content',
-                'before_widget' => '<div class="col-12 col-md-6 col-lg-4"><div class="card">
-                                    <i class="fa fa-quote-left text-center" aria-hidden="true"></i>',
-                'after_widget'  => '</div></div>',
+                'before_widget' => '<div class="col-12 col-md-6 col-lg-4"><div class="card">',
+                'after_widget'  => '<i class="fa fa-quote-right text-center" aria-hidden="true"></i></div></div>',
                 'before_title'  => '',
                 'after_title'   => '',
             ));
@@ -173,7 +172,7 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
 
         /**
          * Add theme feature.
-         * 
+         *
          * @access private Do not access this method directly. This is for hook callback not for direct call.
          */
         public function themeSetup()
@@ -201,11 +200,11 @@ if (!class_exists('\\BootstrapBasic4\\BootstrapBasic4')) {
 
             // add support custom background
             add_theme_support(
-                'custom-background', 
+                'custom-background',
                 apply_filters(
-                    'bootstrap_basic4_custom_background_args', 
+                    'bootstrap_basic4_custom_background_args',
                     array(
-                        'default-color' => 'ffffff', 
+                        'default-color' => 'ffffff',
                         'default-image' => ''
                     )
                 )

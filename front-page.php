@@ -39,11 +39,11 @@ get_sidebar();
     </div>
     <div class="row">
         <div class="col-12 col-lg-6 mb-4 d-flex align-items-stretch">
-            <?php dynamic_sidebar('widget-present-1'); ?>
+            <?//php dynamic_sidebar('widget-present-1'); ?>
         </div>
         <div class="col-12 col-lg-6 d-flex align-items-stretch">
             <div class="row">
-                <?php dynamic_sidebar('widget-present-2'); ?>
+                <?//php dynamic_sidebar('widget-present-2'); ?>
             </div>
         </div>
     </div>
