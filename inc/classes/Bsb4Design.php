@@ -152,7 +152,7 @@ if (!class_exists('\\BootstrapBasic4\\Bsb4Design')) {
          */
         public function continueReading($return = false)
         {
-            $output = __('Continue reading <span class="meta-nav">&rarr;</span>', 'bootstrap-basic4');
+            $output = __('(читать далее…)<span class="meta-nav"></span>', 'bootstrap-basic4');
 
             if ($return === true) {
                 return $output;
